@@ -13,7 +13,7 @@
         max-width: 1320px;
     }
 
-    .w-100 {
+    .col-xl-12 {
         width: 100%;
     }
 
@@ -36,7 +36,7 @@
         max-width: 720px;
     }
 
-    .col-lg-12 {
+    .col-md-12 {
         width: 100%;
     }
 
