@@ -1,96 +1,78 @@
-/* min-width start */
-
-/* sm */
-@media(min-width:576px){
-    .container{
-        max-width: 540px;
-    }
-    .col-sm-12{
-        width: 100%;
-    }
-    .col-sm-6{
-        width: 50%;
-    }
-    header .nav-bar ul li{
-        display: none;
-    }
-    header .top-nav ul li{
-        display: flex;
-    }
-    header .top-nav .fa-bars{
-        font-size: 26px;
-    }
-    header .hero .hero-content{
-        font-size: 21px;
-        text-align: center;
-    }
-}
-/* sm */
-
-/* md */
-@media(min-width:768px){
-    .container{
-        max-width: 720px;
-    }
-    .col-md-4{
-        width: 33.33%;
-    }
-    .col-md{
-        width: 66.66%;
-    }
-    
-}
-/* md */
-
-/* lg */
-@media(min-width:992px){
-    .container{
-        max-width: 960px;
-    }
-    .col-lg-6{
-        width: 50%;
-    }
-    .col-lg-4{
-        width: 33.33%;
-    }
-    .col-lg-3{
-        width: 25%;
-    }
-    .col-lg-2{
-        width: 20%;
-    }
-    header .top-nav{
-        display: none;
-    }
-    header .nav-bar ul li{
-        display: flex;
-    }
-    header .hero .hero-content{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .d-lg-flex{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-/* lg */
-
-
-/* xl */
-@media(min-width:1200px){
-    .container{
-        max-width: 1140px;
-    }
-}
 /* xxl */
-@media(min-width:1400px){
-    .container{
+@media(max-width:100%) {
+    .container {
+        max-width: 100%;
+    }
+
+}
+
+/* xxl */
+/* xl */
+@media(max-width:1399px) {
+    .container {
         max-width: 1320px;
     }
 
+    .w-100 {
+        width: 100%;
+    }
 
 }
-/* xxl */
 
-/* min-width end */
+/* xl */
+
+/* lg */
+@media(max-width:1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* lg */
+
+/* md */
+@media(max-width:991px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .section-menu .section-menu-content .f-family {
+        font-size: 2rem;
+    }
+
+    .section-menu .section-menu-content strong {
+        font-size: 16px;
+    }
+
+    .d-md-flex {
+        display: flex;
+    }
+    .menu{
+        order: 2;
+    }
+    header .topbar .logo {
+        order: 1;
+    }
+    .d-md-none{
+        display: none;
+    }
+    .hero .hero-content .image{
+        width: 100%;
+    }
+
+}
+
+/* md */
+
+/* sm */
+@media(max-width:767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* sm */
